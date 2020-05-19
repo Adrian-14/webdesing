@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+  }
+  body {
+    background: rgb(40,122,234); /* Old browsers */
+    background: -moz-linear-gradient(129deg, rgba(40,122,234,1) 31%, rgba(6,198,154,1) 80%); /* FF3.6+ */
+    background: -webkit-gradient(129deg, rgba(40,122,234,1) 31%, rgba(6,198,154,1) 80%); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(129deg, rgba(40,122,234,1) 31%, rgba(6,198,154,1) 80%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(129deg, rgba(40,122,234,1) 31%, rgba(6,198,154,1) 80%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(129deg, rgba(40,122,234,1) 31%, rgba(6,198,154,1) 80%); /* IE10+ */
+    background: linear-gradient(129deg, rgba(40,122,234,1) 31%, rgba(6,198,154,1) 80%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#287aea",endColorstr="#06c69a",GradientType=1); /* IE6-9 */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: 0px 0px;
+  }
+  #logo{
+      margin: auto;
+      padding: auto;
+      height: 40px;
+      width:  40px;
+  }
+  #menu{
+      padding-right: 200px;
+      margin: 16px;
+  }
+  li a{
+      margin: 0px 30px 0px 0px;
+      color: #3F3D56 !important;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 20x;
+  }
+  h1{
+      color: #FFFFFF;
+      font-family: 'Lato', sans-serif;
+      font-size: 60px;
+  }
+  #img1{
+      height: 100%;
+      width: 100%;
+      padding-top: 130px;
+      padding-left: 30px;
+      position: relative;
+      z-index: 4;
+  }
+  p{
+      font-size: 40px;
+      font-family: 'Lato', sans-serif;
+      color: #292929;
+  }
+  #boton{
+      font-size: 30px;
+      color: #FFFFFF;
+      height: 76px;
+      width: 276px;
+      border-radius: 46px 46px 46px 46px;
+      background-color: #0FE6DE;
+  }
+  .circulo1{
+    opacity: 50%;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+    height: 600px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 25px solid #00AED8;
+    left: 0px; 
+    top: 80px;
+
+  }
+  .circulo2{
+    opacity: 50%;
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 25px solid #00AED8;
+    left: 100px; 
+    top: 180px;
+
+  }
+
+  .circulo3{
+    opacity: 50%;
+    position: absolute;
+    z-index: 3;
+    width: 500px;
+    height: 500px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 25px solid #00AED8;
+    left: 50px; 
+    top: 130px;
+  }
